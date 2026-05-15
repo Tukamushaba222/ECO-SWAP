@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Impact | Eco-Syst</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+<body>
+
+    <nav id="navbar">
+        <div class="logo">Eco-Syst</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our-impact.html">Our Impact</a></li>
+        </ul>
+    </nav>
+
+    <header class="impact-hero">
+        <h1>Keep Moving and Improving!</h1>
+        <p>Join our drive to transform waste into opportunity.</p>
+    </header>
+
+    <main class="impact-container">
+        <section class="impact-board">
+            <h2>Support the Drive</h2>
+            <p>Proceeds go to educating under-privileged youth and growing our upcycling workshops.</p>
+            <div class="button-group">
+                <button class="impact-btn donate-cash">Donate Cash</button>
+                <button class="impact-btn donate-materials">Donate Materials</button>
+            </div>
+        </section>
+
+        <section class="impact-board gallery-board">
+            <h2>Community Inspiration Gallery</h2>
+            <div class="image-gallery">
+                <div class="gallery-item"><img src="https://picsum.photos/id/10/400/300" alt="Nature Inspiration"></div>
+                <div class="gallery-item"><img src="https://picsum.photos/id/20/400/300" alt="Crafting"></div>
+                <div class="gallery-item"><img src="https://picsum.photos/id/30/400/300" alt="Workspace"></div>
+                <div class="gallery-item"><img src="https://picsum.photos/id/40/400/300" alt="Greenery"></div>
+            </div>
+            <button class="cta-link">Document Your Transformation →</button>
+        </section>
+    </main>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("navbar").classList.add("shrink");
+          } else {
+            document.getElementById("navbar").classList.remove("shrink");
+          }
+        }
+    </script>
+</body>
+</html>
