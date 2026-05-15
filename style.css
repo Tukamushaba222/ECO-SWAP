@@ -225,7 +225,7 @@ justify-content: center;
 }
 
 .method-card h3 {
-    color: #2e7d32;
+    color: #7d7d2e;
     margin-bottom: 10px;
 }
 nav a {
@@ -250,7 +250,7 @@ nav a:hover {
     transition: 0.4s;
     z-index: 1000;
     background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(1.2px);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
